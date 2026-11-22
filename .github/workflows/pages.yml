@@ -1,5 +1,4 @@
 name: Pages
-
 on:
   push:
     branches: [main]
@@ -26,13 +25,8 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cat > _site/index.html <<'HTML'
-          <!doctype html>
-          <meta charset="utf-8">
-          <title>acefu-market</title>
-          <h1>acefu-market</h1>
-          <p>Pages is working.</p>
-          HTML
+          cp index.html catalog.signed.json _site/
+          cp -R packages _site/
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
