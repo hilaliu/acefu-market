@@ -1,9 +1,27 @@
+# dependencies
 node_modules/
+.pnpm-store/
+
+# build output
 apps/*/dist/
-*.log
-.DS_Store
-*.tsbuildinfo
-.dev.vars
-.wrangler/
+dist/
+out/
+coverage/
+.vite/
+
+# local configuration and secrets
 .env
 .env.*
+!.env.example
+.dev.vars
+.wrangler/
+
+# temp files and logs
+*.log
+*.acefu.tmp
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
