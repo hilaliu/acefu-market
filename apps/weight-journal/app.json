@@ -1,0 +1,28 @@
+{
+  "id": "com.acefu.weight-journal",
+  "name": "体重日记",
+  "version": "0.1.0",
+  "description": "记录每晚与次晨体重，算出一夜代谢和每天的变化",
+  "icon": "dist/icon.svg",
+  "sdk": "^0.1.0",
+  "runtime": "untrusted-web",
+  "ui": {
+    "type": "bundle",
+    "entry": "dist/index.html"
+  },
+  "window": {
+    "mode": "tab",
+    "detachable": true,
+    "multi": false,
+    "minSize": [
+      560,
+      480
+    ]
+  },
+  "permissions": {
+    "storage": true,
+    "clipboard": [
+      "write"
+    ]
+  }
+}

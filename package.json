@@ -1,0 +1,17 @@
+{
+  "name": "acefu-market",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "build": "pnpm --filter acefu-app-weight-journal build",
+    "check": "acefu check apps/weight-journal",
+    "dev": "pnpm --filter acefu-app-weight-journal dev",
+    "publish:weight-journal": "node scripts/publish-app.mjs apps/weight-journal",
+    "verify": "node scripts/verify-catalog.mjs",
+    "typecheck": "pnpm --filter acefu-app-weight-journal typecheck"
+  },
+  "devDependencies": {
+    "@acefu-lab/cli": "^0.1.0"
+  }
+}

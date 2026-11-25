@@ -1,0 +1,24 @@
+{
+  "name": "acefu-app-weight-journal",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "体重日记：记录每晚与次晨体重，算出一夜代谢和每天的变化",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@acefu-lab/app-kit": "^0.1.0",
+    "@acefu-lab/ui": "^0.1.0",
+    "vue": "^3.5.46"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vue-tsc": "^3.3.13"
+  }
+}

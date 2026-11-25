@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-25T15:56:37.637Z",
+  "apps": [
+    {
+      "id": "com.acefu.market-placeholder",
+      "name": "市场占位应用",
+      "summary": "应用市场的安装、更新与进程生命周期测试对象",
+      "description": "应用市场的安装、更新与进程生命周期测试对象",
+      "publisher": {
+        "id": "acefu",
+        "name": "Acefu",
+        "keyId": "acefu-market-2026-01"
+      },
+      "categories": [
+        "tools"
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuW4guWcuuWNoOS9jeW6lOeUqCI+CiAgPHRpdGxlPuW4guWcuuWNoOS9jeW6lOeUqDwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTIiIGZpbGw9IiNmOGY1ZjAiLz4KICA8cmVjdCB4PSI5NiIgeT0iOTYiIHdpZHRoPSIzMjAiIGhlaWdodD0iMzIwIiByeD0iNjAiIGZpbGw9IiMxYzFiMTkiLz4KICA8cGF0aCBkPSJNMTM2IDI2NGg1NmwyNi02NCA0NiAxMjggMzAtNjRoODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2Y4ZjVmMCIgc3Ryb2tlLXdpZHRoPSIxOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMzcyIiBjeT0iMTQ0IiByPSIyMCIgZmlsbD0iIzMwN2FjZiIvPgo8L3N2Zz4K",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sdk": "^0.1.0",
+          "publishedAt": "2026-11-22T06:53:36.785Z",
+          "notes": "第一条市场包",
+          "permissions": [],
+          "assets": [
+            {
+              "platform": "any",
+              "url": "https://hilaliu.github.io/acefu-market/packages/com.acefu.market-placeholder-0.1.0-any.acefu",
+              "sha256": "02dfe7e1b452d6bc6602cfd035d46398a9603ef00cb9c72cc540161b7d69416f",
+              "size": 40481
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.acefu.weight-journal",
+      "name": "体重日记",
+      "summary": "记录每晚与次晨体重，算出一夜代谢和每天的变化",
+      "description": "记录每晚与次晨体重，算出一夜代谢和每天的变化。自动算出一夜代谢、日变化与趋势；数据只保存在本机，可导出 JSON 备份。",
+      "publisher": {
+        "id": "acefu",
+        "name": "Acefu",
+        "keyId": "acefu-market-2026-01"
+      },
+      "categories": [
+        "health",
+        "lifestyle"
+      ],
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IuS9k+mHjeaXpeiusCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzFmOGE3OCIgLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMGQ1ZjU1IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSIxMTYiIGZpbGw9InVybCgjYmcpIiAvPgogIDxyZWN0IHg9IjExOCIgeT0iMTM4IiB3aWR0aD0iMjc2IiBoZWlnaHQ9IjI0NCIgcng9IjUyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmMmZiZjgiIHN0cm9rZS13aWR0aD0iMjIiIC8+CiAgPHBhdGggZD0iTTE5NiAxOThhNjAgNjAgMCAwIDEgMTIwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YyZmJmOCIgc3Ryb2tlLXdpZHRoPSIxOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiAvPgogIDxwYXRoIGQ9Ik0yNTYgMTk4bDQ0LTM2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmMmZiZjgiIHN0cm9rZS13aWR0aD0iMTgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgLz4KICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxOTgiIHI9IjEyIiBmaWxsPSIjZjJmYmY4IiAvPgogIDxwYXRoIGQ9Ik0xNzQgMzE4YzI4IDAgNDAtNTQgNjgtNTRzNDAgNTQgNjggNTQgNDAtMzggNjItMzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzhmZTNkMiIgc3Ryb2tlLXdpZHRoPSIxNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiAvPgogIDxjaXJjbGUgY3g9IjE3NCIgY3k9IjMxOCIgcj0iMTAiIGZpbGw9IiM4ZmUzZDIiIC8+CiAgPGNpcmNsZSBjeD0iMzcyIiBjeT0iMjgwIiByPSIxMCIgZmlsbD0iIzhmZTNkMiIgLz4KPC9zdmc+Cg==",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sdk": "^0.1.0",
+          "publishedAt": "2026-11-25T15:56:37.636Z",
+          "notes": "体重日记 v0.1.0",
+          "permissions": [
+            "storage",
+            "clipboard:write"
+          ],
+          "assets": [
+            {
+              "platform": "any",
+              "url": "https://hilaliu.github.io/acefu-market/packages/com.acefu.weight-journal-0.1.0-any.acefu",
+              "sha256": "357210de82897f50747f55412bbfd6fd4c2af997ea412da0780b41c3d461483d",
+              "size": 51068
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
